@@ -1,0 +1,78 @@
+body{
+    background-color: #03084d;
+    color: whitesmoke;
+    
+}
+/* #848484 */
+h1{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.crest{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    border-width: 10px;
+
+}
+.ul1{
+    list-style-type:none;
+}
+.ol1{
+    font-size: larger;
+}
+.ul2{
+    list-style-type: square;
+}
+
+@keyframes anim1 {
+    from{color: #03084d;}
+    to{color: whitesmoke;}
+}
+
+.p1,.h1{
+    font-weight: bold;
+    text-align: center;
+    animation-name:anim1 ;
+    animation-duration: 6s;
+}
+.tr1{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    font-size: larger;
+}
+
+.td1 a{
+    display: block;
+    color: white;
+    text-align: center;
+}
+.td1 a:hover{
+    background-color: #111;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 5vh;
+    text-align: right;
+    padding-right: 5vh;
+    font-size: large;
+}
+#map {
+    height: 400px; 
+    width: 100%; 
+}
+.school{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: white;
+        border-width: 10px;
+}
+
